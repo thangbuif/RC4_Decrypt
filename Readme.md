@@ -1,7 +1,7 @@
 RC4 - DECRYPTION
 1. Giới thiệu:
 - Chương trình thực hiện giải mã thuật toán mã hoá RC4.
-- Bạn chỉ cần chạy file main.exe rồi nhập input là bản mã, output hiện ra là plaintext.
+- Bạn chỉ cần chạy file run.bat trong VS Code rồi nhập input là bản mã, output hiện ra là plaintext.
 2. Cấu trúc project:
 - RC4.h: Header chung: khai báo kích thước, nguyên mẫu hàm, hằng số.
 - swap.c: Hàm swap() hoán đổi hai giá trị byte, dùng cho KSA và PRGA.
@@ -13,7 +13,7 @@ RC4 - DECRYPTION
 - run.bat: Script chạy trên Windows: biên dịch (nếu cần) và thực thi chương trình, sau đó nhập input từ bàn phím.
 3. Cách chạy:
 - Mở thư mục project RC4_Decrytion trên VS Code
-- Thực hiện chạy file main.exe
+- Thực hiện chạy file run.bat trong VS Code
 - Nhập input gồm chuỗi nhị phân cipher (có thể dùng dấu khoảng trắng để phân biệt mỗi kí tự) và Key (chuỗi kí tự ASCII)
 - Output là bản plaintext P in ra ở chuỗi.
 4. Bộ test vector:
